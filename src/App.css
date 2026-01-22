@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --color-mein-blau: #0000ff;
+  --font-display: "Inter", sans-serif;
+}
