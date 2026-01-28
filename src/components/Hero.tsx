@@ -10,11 +10,12 @@ function Hero() {
       <p className="text-sm text-blue-400 mb-10">Hallo, ich bin</p>
       <h2 className="text-4xl md:text-5xl font-bold mb-4">David Ong</h2>
       <p className="max-w-xl text-gray-300">
-        Webentwickler mit Fokus auf React, TailwindCSS und moderne
-        JavaScript‑Tools.
+        Junior Frontend Developer | React & Tailwind CSS | DCI Digital Career
+        Institute (DCI), Abschluss im September. Motiviert, praxisnah und mit
+        Leidenschaft für sauberen Code und gutes UI.
       </p>
     </section>
-  )
+  );
 }
 
 export default Hero;

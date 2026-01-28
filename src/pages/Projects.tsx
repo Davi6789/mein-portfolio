@@ -6,7 +6,7 @@ function Projects() {
     <>
       <section
         id="projects"
-        className="min-h-screen py-16 bg-slate-950 text-white py-80"
+        className="min-h-screen py-80 bg-slate-950 text-white"
       >
         <h3 className="text-8xl font-bold text-center mb-80">Projekte</h3>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">

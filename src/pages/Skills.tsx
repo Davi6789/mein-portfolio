@@ -1,5 +1,5 @@
 function Skills() {
-  const skills = ['React.js', 'Nodejs', 'TailwindCSS', 'JavaScript', 'Bun ', 'Vite']
+  const skills = ['React.js', 'Nodejs', 'TailwindCSS', 'JavaScript', 'Bun ', 'Vite', 'HTML & CSS', 'Git & GitHub', 'Responsive Design' ]
 
   return (
     <section id="skills" className="min-h-screen bg-gray-950 text-white py-80">
@@ -8,7 +8,7 @@ function Skills() {
         {skills.map((skill) => (
           <span
             key={skill}
-            className="px-4 py-2 rounded-full bg-gray-800 text-ms border border-gray-700"
+            className="text-4xl text-red-500 px-4 py-2 rounded-full bg-gray-800 text-ms border border-gray-700"
           >
             {skill}
           </span>

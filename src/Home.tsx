@@ -1,6 +1,4 @@
 import Hero from "./components/Hero";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
 
 function Home() {
   return (
