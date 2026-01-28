@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <section id="contact" className="min-h-screen bg-slate-900 text-white">
-      <h2 className="text-2xl font-bold mb-4 text-center">Kontakt</h2>
+    <section id="contact" className="min-h-screen bg-slate-950 text-white py-90">
+      <h2 className="text-4xl font-bold mb-20 text-center">Kontakt</h2>
       <form className="max-w-md mx-auto flex flex-col gap-4">
         <input
           type="text"
