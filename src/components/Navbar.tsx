@@ -8,7 +8,7 @@ const Navbar = () => {
     }`;
 
   return (
-    <nav className="w-full flex items-center justify-between px-6 py-4 bg-gray-900 text-white sticky top-0">
+    <nav className="w-full flex items-center justify-between px-6 py-4 bg-gray-900 text-white sticky top-0 z-50">
       <h1 className="text-xl font-bold">Mein Portfolio</h1>
       
       <div className="flex gap-4">
