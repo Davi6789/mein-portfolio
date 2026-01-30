@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Optional: Falls du System-Einstellung (prefers-color-scheme) trotzdem nutzen willst */
+@custom-variant dark (&:where(.dark, .dark *, (prefers-color-scheme: dark)));
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
