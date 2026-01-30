@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import logo from "../assets/logo_do1.png"
 const Navbar = () => {
   // Diese Funktion bestimmt das Aussehen basierend auf dem Status "isActive"
   const activeClass = ({ isActive }: { isActive: boolean }) =>
@@ -9,9 +9,12 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex items-center justify-between px-6 py-4 bg-gray-900 text-white sticky top-0 z-50">
-      <h1 className="text-xl font-bold">Mein Portfolio</h1>
-      
-      <div className="flex gap-4">
+      <NavLink to="/" className="flex items-center gap-3 hover:opacity-90 transition">
+        <img src={logo} alt="David Logo" className="h-8 w-auto" />
+        <span className="text-xl font-bold tracking-tight">David Ong</span>
+      </NavLink>
+
+      <div className="flex gap-4 md:gap-6">
         {/* NavLink  übergeben die activeClass Funktion an className */}
         <NavLink title="Home" to="/" className={activeClass}>Home</NavLink>
         <NavLink title="Projekte" to="/projects" className={activeClass}>Projekte</NavLink>

@@ -10,6 +10,7 @@ const Contact = () => {
       <div className="absolute inset-0 bg-slate-950/60"></div>
       <div className="relative z-10 w-full px-4">
       <h2 className="text-white text-4xl font-bold mb-10 text-center">Kontakt</h2>
+      <h3 className="text-white text-center mb-5">Schreib mir, sobald du magst – ich antworte umgehend.</h3>
       <form className="max-w-md mx-auto flex flex-col gap-4 bg-slate-900/40 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-2xl">
         <input
           type="text"
@@ -29,7 +30,7 @@ const Contact = () => {
           type="submit"
           className="px-4 py-2 rounded bg-teal-500 text-slate-950 text-sm font-semibold hover:bg-teal-400"
         >
-          Senden
+          Absenden
         </button>
       </form>
       </div>
